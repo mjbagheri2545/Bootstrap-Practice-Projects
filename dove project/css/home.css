@@ -1,0 +1,39 @@
+/* main */
+
+/* section blogs */
+
+.blogs .card
+{
+    transition: 0.4s;
+}
+.blogs .card:hover
+{
+   transform: scale(1.05) translateY(-20px);
+}
+.blogs .card:hover:not(:hover)
+{
+    transform: scale(0.5);
+}
+.blogs .card a:hover
+{
+    color: #f8f9fa;
+}
+
+/* section contact */
+
+.contact .col
+{
+    max-width: 600px;
+}
+
+/* footer */
+
+.social-icons i
+{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.social-icons i:hover
+{
+    transform: translateY(-5px) scale(1.3);
+}
