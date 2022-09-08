@@ -1,0 +1,126 @@
+body 
+{
+    background-color: #eee ;
+} 
+
+/* main */
+
+/* sidebar */
+.sidebar
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7) , rgba(0,0,0,.9)) ,url(../images/sidebar-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar .navbar-nav a
+{
+    transition: all 0.35s;
+    padding: 15px 0;
+}
+.sidebar .navbar-nav a:hover
+{
+    background-color: #333;
+    border-radius: 5px;
+}
+.sidebar .navbar-nav a.link-active
+{
+    background-color: #f44336;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px #111;
+}
+.sidebar .navbar-nav a.link-active:hover
+{
+    background-color: #f66436;
+}
+
+/* navbar */
+
+
+.navbar .navigation .search-input
+{
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    transition: 0.35s;
+}
+.navbar .navigation .search-input:focus
+{
+    border-bottom-color: #f44336 !important;
+}
+.navbar .navigation i
+{
+    cursor: pointer;
+}
+.navbar .navigation form .btn
+{
+   border: none !important;
+}
+
+/* cards */
+.cards .card 
+{
+    box-shadow: 0 3px 6px 0 #666;
+    transition: 0.35s;
+}
+.cards .card:hover
+{
+    transform: translateY(-1px) scale(1.05);
+    box-shadow: 0 3px 12px 0 #666;
+}
+.cards .card i.fa-rotate
+{
+    cursor: pointer;
+}
+/* tasks */
+.tasks i
+{
+    cursor: pointer;
+}
+/* tables */
+.tables table td,
+.tables table th
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px;
+}
+
+/* activities */
+.activities .new-post div
+{
+    cursor: pointer;
+}
+.line-h-lg
+{
+    line-height: 30px;
+}
+.cursor-p
+{
+    cursor: pointer;
+}
+.mw-140
+{
+    max-width: 140px;
+}
+
+
+
+
+@media(max-width : 768px ){
+    .navigation
+    {
+      position: static;
+    }
+  
+    .sidebar
+    {
+      position: static;
+      height: auto;
+    }
+}
+
+
+
