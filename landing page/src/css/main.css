@@ -1,0 +1,22 @@
+@font-face
+{
+    font-family: poppins;
+    src: url(../../assets/fonts/Poppins-Medium.ttf);
+}
+*
+{
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+body
+{
+    overflow-x: hidden;
+}
+button
+{
+    box-shadow: none;
+}
+a
+{
+    text-decoration: none;
+}
